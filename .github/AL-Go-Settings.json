@@ -1,4 +1,11 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "Environments": [
+    "QA",
+    "FAT (FAT)",
+    "Production (PROD)"
+  ],
+  "FAT_AuthContextSecretName": "QA_AUTHCONTEXT",
+  "Production_AuthContextSecretName": "QA_AUTHCONTEXT"  
 }
